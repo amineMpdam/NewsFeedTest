@@ -87,8 +87,8 @@ The project leverages dependency injection to manage dependencies between layers
 The also leverages Swift Testing and Sourcery generated mocks for a set of clean easy to read unit tests
 
 **Enhancements**: further enhancements were omitted for time purposes
-- **Hashing sensitive data** use sourcery to handle encryption of the apikey and api base url
+- **Hashing sensitive data** use sourcery to handle encryption of the apikey and api base url and other sensitve data
 - **Local Data Souce** add a secondary implementation of NewsDataSource to handle local data fetching
 - **Data Caching** cache the latest search locally to provide some kind of offline feature
-- **Lazy Loading/pull to refresh** for an overall better user experience and easier scrolling
+- **Better Error Management** for now the error management on the client side is quite rudemntary so perhaps parsing the error json for better info 
 - **Better Design** i'm a developer not a designer sorry not sorry 😂

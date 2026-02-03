@@ -1,0 +1,18 @@
+sources:
+    include:
+        - ../../NewsFeedTest/Data
+        - ../../NewsFeedTest/Domain
+        - ../../NewsFeedTest/Infrastructure
+    exclude:
+        - ../../NewsFeedTest/Presentation
+
+templates:
+    - ../Templates/AutoMockable.stencil
+
+output:
+    ../../NewsFeedTestTests/SourceryTests
+
+args:
+    projectName: ${PROJECT_NAME}
+    autoMockableTestableImports:
+        - NewsFeedTest
