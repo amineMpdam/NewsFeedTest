@@ -13,7 +13,7 @@ The project is organized into distinct layers, each responsible for specific con
 - **Domain**: Business logic and use cases.
 - **Data**: Data sources and repositories.
 - **Infrastructure**: Configuration, network, and utilities.
-- **Sourcery**: Mock genration configuration
+- **Sourcery**: Mock generation configuration
 
 
 ## Layer Responsibilities
